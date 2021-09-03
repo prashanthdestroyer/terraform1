@@ -4,12 +4,6 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "2.74"
     }
-    backend "remote" {
-    organization = "Prashanth_1431"
-    workspaces {
-      name = "terraform1"
-    }
-  }
 }
 
   required_version = "1.0.5"
